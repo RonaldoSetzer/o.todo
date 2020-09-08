@@ -27,4 +27,9 @@ module.exports = {
     'react/prop-types': 'off',
     'no-param-reassign': 'off',
   },
+  setttings: {
+    'import/resolve': {
+      'babel-module': {},
+    },
+  },
 };

@@ -26,4 +26,12 @@ module.exports = {
       template: path.resolve(__dirname, 'public', 'index.html'),
     }),
   ],
+
+  resolve: {
+    alias: {
+      '~': path.resolve(__dirname),
+      '@': path.resolve(__dirname, 'src'),
+    },
+    extensions: ['.js', '.jsx'],
+  },
 };
