@@ -1,7 +1,5 @@
 import { combineReducers } from 'redux';
 
-function reduxExample(state = [], action) {
-  return state;
-}
+import todo from './todo/reducer';
 
-export default combineReducers({ reduxExample });
+export default combineReducers({ todo });
