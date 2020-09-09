@@ -1,7 +1,7 @@
-import { combineReduers } from 'redux';
+import { combineReducers } from 'redux';
 
 function reduxExample(state = [], action) {
   return state;
 }
 
-export default combineReduers({ reduxExample });
+export default combineReducers({ reduxExample });
