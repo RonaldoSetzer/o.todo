@@ -30,6 +30,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     line-height: 1;
+    font-family:  'Baloo 2', Helvetica, Arial, sans-serif;
   }
 
   button {
