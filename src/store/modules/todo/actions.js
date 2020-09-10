@@ -1,6 +1,7 @@
-export function add() {
+export function add(value) {
   return {
     type: '@todo/ADD',
+    value,
   };
 }
 
