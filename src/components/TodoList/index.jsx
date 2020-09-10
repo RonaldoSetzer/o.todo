@@ -10,7 +10,7 @@ function TodoList({ title, provider }) {
       <h1>To Do</h1>
       <ul>
         {provider.map(item => (
-          <TodoItem />
+          <TodoItem {...item} />
         ))}
       </ul>
     </Container>
